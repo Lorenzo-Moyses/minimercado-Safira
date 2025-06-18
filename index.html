@@ -27,25 +27,27 @@
     <p>Oferecemos frutas, alimentos não perecíveis e produtos de higiene e limpeza. Selecione seus itens e receba em casa ou retire na loja!</p>
 
     <!-- Carrossel de Imagens -->
-    <div id="carouselProdutos" class="carousel slide mt-4" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="imagens/banana.jpg" class="d-block w-100" alt="Dúzia de bananas">
-        </div>
-        <div class="carousel-item">
-          <img src="imagens/arroz.jpg" class="d-block w-100" alt="Pacote de arroz">
-        </div>
-        <div class="carousel-item">
-          <img src="imagens/sabao.jpg" class="d-block w-100" alt="Sabão em barra">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselProdutos" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+<!-- Carrossel de Imagens -->
+<div id="carouselProdutos" class="carousel slide mt-4" data-bs-ride="carousel" style="max-width: 600px; margin: auto;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagens/banana.jpg" class="d-block w-100" alt="Dúzia de bananas" style="height: 300px; object-fit: cover;">
     </div>
+    <div class="carousel-item">
+      <img src="imagens/arroz.jpg" class="d-block w-100" alt="Pacote de arroz" style="height: 300px; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/sabao.jpg" class="d-block w-100" alt="Sabão em barra" style="height: 300px; object-fit: cover;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselProdutos" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
   </main>
 
   <footer class="bg-light text-center mt-5 p-3 border-top">
@@ -54,6 +56,6 @@
   </footer>
 
   <!-- Bootstrap JS Bundle (inclui Popper) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
